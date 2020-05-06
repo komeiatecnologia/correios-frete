@@ -29,7 +29,10 @@ module Correios
         "81035" => { :type => :e_sedex_express,             :name => "e-SEDEX",        :description => "e-SEDEX Express, com contrato"     },
         "81868" => { :type => :e_sedex_grupo_1,             :name => "e-SEDEX",        :description => "(Grupo 1) e-SEDEX, com contrato"   },
         "81833" => { :type => :e_sedex_grupo_2,             :name => "e-SEDEX",        :description => "(Grupo 2) e-SEDEX, com contrato"   },
-        "81850" => { :type => :e_sedex_grupo_3,             :name => "e-SEDEX",        :description => "(Grupo 3) e-SEDEX, com contrato"   }
+        "81850" => { :type => :e_sedex_grupo_3,             :name => "e-SEDEX",        :description => "(Grupo 3) e-SEDEX, com contrato"   },
+        "4237" => { :type => :sedex_grandes_formatos,       :name => "SEDEX grandes formatos",        :description => "SEDEX com contrato" },
+        "40169" => { :type => :sedex_12,                    :name => "SEDEX 12",       :description => "SEDEX 12, com contrato"            },
+        "4618" => { :type => :sedex_grandes_pac,            :name => "PAC grandes formatos",     :description => "PAC grandes formatos"    }
       }
 
       element :Codigo, :as => :codigo
