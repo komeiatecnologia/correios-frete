@@ -231,7 +231,7 @@ Para desabilitar o log, mudar o nível do log ou configurar um outro mecanismo d
   :e_sedex_grupo_3               # 81850 - (Grupo 3) e-SEDEX, com contrato
   :sedex_grandes_formatos        # 4237 - SEDEX com contrato
   :sedex_12                      # 40169 - SEDEX 12, com contrato
-  :sedex_grandes_pac             # 4618 - PAC grandes formatos
+  :pac_grandes_formatos          # 4618 - PAC grandes formatos
 
 === Maneiras de configurar atributos no construtor de Correios::Frete::Calculador
 

@@ -32,7 +32,7 @@ module Correios
         "81850" => { :type => :e_sedex_grupo_3,             :name => "e-SEDEX",        :description => "(Grupo 3) e-SEDEX, com contrato"   },
         "4237" => { :type => :sedex_grandes_formatos,       :name => "SEDEX grandes formatos",        :description => "SEDEX com contrato" },
         "40169" => { :type => :sedex_12,                    :name => "SEDEX 12",       :description => "SEDEX 12, com contrato"            },
-        "4618" => { :type => :sedex_grandes_pac,            :name => "PAC grandes formatos",     :description => "PAC grandes formatos"    }
+        "4618" => { :type => :pac_grandes_formatos,            :name => "PAC grandes formatos",     :description => "PAC grandes formatos"    }
       }
 
       element :Codigo, :as => :codigo
