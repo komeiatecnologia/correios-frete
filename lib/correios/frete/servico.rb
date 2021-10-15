@@ -30,9 +30,11 @@ module Correios
         "81868" => { :type => :e_sedex_grupo_1,             :name => "e-SEDEX",        :description => "(Grupo 1) e-SEDEX, com contrato"   },
         "81833" => { :type => :e_sedex_grupo_2,             :name => "e-SEDEX",        :description => "(Grupo 2) e-SEDEX, com contrato"   },
         "81850" => { :type => :e_sedex_grupo_3,             :name => "e-SEDEX",        :description => "(Grupo 3) e-SEDEX, com contrato"   },
-        "4237" => { :type => :sedex_grandes_formatos,       :name => "SEDEX grandes formatos",        :description => "SEDEX com contrato" },
-        "40169" => { :type => :sedex_12,                    :name => "SEDEX 12",       :description => "SEDEX 12, com contrato"            },
-        "4618" => { :type => :pac_grandes_formatos,            :name => "PAC grandes formatos",     :description => "PAC grandes formatos"    }
+        "4237"  => { :type => :sedex_grandes_formatos,      :name => "SEDEX grandes formatos", :description => "SEDEX com contrato"        },
+        "40169" => { :type => :sedex_12,                    :name => "SEDEX 12",               :description => "SEDEX 12, com contrato"    },
+        "4618"  => { :type => :pac_grandes_formatos,        :name => "PAC grandes formatos",   :description => "PAC grandes formatos"      },
+        "03220" => { :type => :sedex_contrato_ag,           :name => "SEDEX CONTRATO AG",      :description => "SEDEX CONTRATO AG"         },
+        "03298" => { :type => :pac_contrato_ag,             :name => "PAC CONTRATO AG",        :description => "PAC CONTRATO AG"           }
       }
 
       element :Codigo, :as => :codigo
